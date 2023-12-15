@@ -1,0 +1,35 @@
+--- Creating token
+
+Creating token Xz95QrAPC3ynSiit79TRzLaMcHbdtZgpREexp94MsvU under program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
+
+Address:  Xz95QrAPC3ynSiit79TRzLaMcHbdtZgpREexp94MsvU
+Decimals:  12
+
+Signature: 3z6pbszQBFSyh2VafUpyCyHMmMwPvUXsr4mexw8jtGhCoYrPm8UsuakaA84F9PGKFhfJmWN5AN2fqhd3Uuu3sinU
+
+--- Creating token account
+spl-token create-account Xz95QrAPC3ynSiit79TRzLaMcHbdtZgpREexp94MsvU
+Creating account CzDUgJ4oJeoyy7oAaogBd8UUBNATyUj1uVwUAkWXVsN3
+
+Signature: Q4is3imdQSWMJ1Fo7QWP8HThAaJbRLb6C3MNwnWpX6w3i6CgNYnY3hvshT2zF9JwvXbfGNHwzhbsMZ3A5yWz6Ed
+
+
+--- Mint token
+spl-token mint Xz95QrAPC3ynSiit79TRzLaMcHbdtZgpREexp94MsvU 21000000
+Minting 21000000 tokens
+  Token: Xz95QrAPC3ynSiit79TRzLaMcHbdtZgpREexp94MsvU
+  Recipient: CzDUgJ4oJeoyy7oAaogBd8UUBNATyUj1uVwUAkWXVsN3
+
+Signature: 4RUqJjFpiVPmeL6wSiGoAMQWnTuwGGxzBV94zYdubUv2wKmhf7Z1wxraQWirwxmA7PHLxKtjuMDb5uPu44NpZuiZ
+
+
+--- Transfer token
+spl-token transfer Xz95QrAPC3ynSiit79TRzLaMcHbdtZgpREexp94MsvU 1000 5LpfhVq1sQjq1deLnsqdhedz3ZTJLAp3XW6eQ9m4tUm4 --allow-unfunded-recipient --fund-recipient
+Transfer 1000 tokens
+  Sender: CzDUgJ4oJeoyy7oAaogBd8UUBNATyUj1uVwUAkWXVsN3
+  Recipient: 5LpfhVq1sQjq1deLnsqdhedz3ZTJLAp3XW6eQ9m4tUm4
+  Recipient associated token account: DhkvrE3vEiCMVMA5LzQRB4BXYxspL9ertzXLxDLcxUyC
+  Funding recipient: DhkvrE3vEiCMVMA5LzQRB4BXYxspL9ertzXLxDLcxUyC
+
+Signature: 3r7jt8HHJBBNtzqJDjMKSGL7YLS5bY69mH1b5dDMJJvFFtYDQfSt5tHjfazZjAd5hW125GqC6u8BHGgjoHHd3JA6
+
